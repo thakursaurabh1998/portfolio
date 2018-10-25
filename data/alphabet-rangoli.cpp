@@ -11,7 +11,7 @@ int main()
 	}
 	int totalRows=((i-1)*2)+1;
 	int totalColumns=((i-1)*4)+1;
-	int midColumn=totalRows;
+	int midColumn=totalRows;//num of total rows is stored in a new variable
 	for(int row=1; row<=totalRows; row++){
 		if (row<=(totalRows/2)+1){
 			int print_column=midColumn+2-(row*2);
